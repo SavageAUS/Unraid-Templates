@@ -30,6 +30,6 @@ https://hub.docker.com/r/daledavies/jump/</Overview>
   <Config Name="Backgrounds" Target="/backgrounds" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/jump/backgrounds</Config>
   <Config Name="Sites" Target="/sites" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/jump/sites</Config>
   <Config Name="Site Name" Target="SITENAME:" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Test</Config>
-  <Config Name="OWMAPIKEY" Target="OWMAPIKEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="OWPAPIKEY" Target="OWPAPIKEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="Lat Long" Target="LATLONG" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
 </Container>
