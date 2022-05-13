@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>homarr</Name>
+  <Repository>ajnart/homarr</Repository>
+  <Registry>https://hub.docker.com/r/ajnart/homarr/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/ajnart/homarr/</Support>
+  <Project/>
+  <Overview>
+https://hub.docker.com/r/ajnart/homarr/</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:7575]/</WebUI>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams>--restart unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1652449103</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Data" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/homarr</Config>
+  <Config Name="Port" Target="7575" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">7575</Config>
+</Container>
