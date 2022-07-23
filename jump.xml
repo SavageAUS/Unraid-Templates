@@ -16,7 +16,7 @@ https://hub.docker.com/r/daledavies/jump/</Overview>
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <TemplateURL/>
-  <Icon>https://github.com/daledavies/jump/blob/main/jumpapp/assets/images/favicon/icon.png</Icon>
+  <Icon>https://github.com/daledavies/jump/blob/main/jumpapp/assets/images/favicon/icon.png?raw=true</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
