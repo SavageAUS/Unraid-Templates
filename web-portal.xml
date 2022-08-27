@@ -9,8 +9,8 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://enchantedcode.co.uk/web-portal/index.html</Project>
-  <Overview>Web-Portal is a web app written in Python using Quart, that aims to provide an easy and fast way to manage the links to all of your web services.&#xD;
-This project is Copyright (c) 2022 Leo Spratt.&#xD;
+  <Overview>Web-Portal is a web app written in Python using Quart, that aims to provide an easy and fast way to manage the links to all of your web services.
+This project is Copyright (c) 2022 Leo Spratt.
 License AGPL-3</Overview>
 
   <Category>Tools:</Category>
