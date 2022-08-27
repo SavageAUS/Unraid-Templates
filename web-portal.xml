@@ -17,7 +17,7 @@ License AGPL-3</Overview>
   <WebUI>http://[IP]:[PORT:8000]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/enchant97/web-portal/main/web_portal/static/favicon.ico</Icon>
-  <ExtraParams/>
+  <ExtraParams/>--restart unless-stopped
   <PostArgs/>
   <CPUset/>
   <DonateText/>
