@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Web-Portal</Name>
+  <Repository>ghcr.io/enchant97/web-portal:2</Repository>
+  <Registry/>
+  <Network>Bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://enchantedcode.co.uk/web-portal/index.html</Project>
+  <Overview>Web-Portal is a web app written in Python using Quart, that aims to provide an easy and fast way to manage the links to all of your web services.&#xD;
+This project is Copyright (c) 2022 Leo Spratt.&#xD;
+License AGPL-3</Overview>
+
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:8000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/enchant97/web-portal/main/web_portal/static/favicon.ico</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Data" Target="/app/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/web-portal/</Config>
+  <Config Name="Port" Target="8000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8000</Config>
+  <Config Name="DB_URI" Target="DB_URI" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">mysql://webportal:PASSWORD@DB/webportal</Config>
+  <Config Name="Plugins" Target="/data/plugins" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/web-portal/plugins</Config>
+  <Config Name="ALLOW_ICON_UPLOADS" Target="ALLOW_ICON_UPLOADS" Default="True" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">True</Config>
+  <Config Name="SECRET_KEY" Target="" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+</Container>
