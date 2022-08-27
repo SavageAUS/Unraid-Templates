@@ -20,6 +20,7 @@ License AGPL-3</Overview>
   <ExtraParams/>--restart unless-stopped
   <PostArgs/>
   <CPUset/>
+  <DateInstalled>1661598449</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
